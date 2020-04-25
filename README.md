@@ -28,40 +28,42 @@
 > 然后爬虫程序不断读取下载再获取新的链接  
 > 如此而源源不断之  
 
-#### 挑选你喜欢的视频链接，输入程序就ok了，自动爬取类似视频  
-#### 视频需要保存在
+##### 挑选你喜欢的视频链接，输入程序就ok了，自动爬取类似视频  
+##### 视频需要保存在
 > F:/ph/
-#### 所以需要在F盘新建 ph 文件夹  
-#### 当然你也可以在程序里改
+##### 所以需要在F盘新建 ph 文件夹  
+##### 当然你也可以在程序里改
 
 ## pornhub视频链接的加密
 > 一个视频m3u8文件链接 :
 > https://d1vh.phncdn.com/hls/videos/202002/08/282888772/,720P_4000K,480P_2000K,240P_400K,_282888772.mp4.urlset/master.m3u8ttl=1587795884&l=0&clientip=47.254.95.205&hash=f02ea34e20bdf70dcf365c45b01e149c  
 > 有时候也会像另外的，但这都不重要
-#### 开始的时候我以为hash=后面跟的是加密值  
-#### 看起来挺唬人的，结果屁都不是  
-#### 在主页面的js我发现了一串奇奇怪怪的东东
+##### 开始的时候我以为hash=后面跟的是加密值  
+##### 看起来挺唬人的，结果屁都不是  
+##### 不用管他
+##### 在主页面的js我发现了一串奇奇怪怪的东东
 > var quality_720p=/* + ra587796052ra37ra587796052ra37 + */rahttpsdvra45rahttpsdvra45 + /* + ramp4ttl1ra66ramp4ttl1ra66 + */ra1phncdncra64ra1phncdncra64 + /* + ra2549520ra91ra2549520ra91 + */raomvideosra42raomvideosra42 + /* + ra1phncdncra64ra1phncdncra64 + */ra20200208ra71ra20200208ra71 + /* + ra720p1500kra48ra720p1500kra48 + */ra282888772ra63ra282888772ra63 + /* + rars4000cra27rars4000cra27 + */ra720p1500kra48ra720p1500kra48 + /* + ramp4ttl1ra66ramp4ttl1ra66 + */ra282888772ra61ra282888772ra61 + /* + ra5hash213ra10ra5hash213ra10 + */ramp4ttl1ra66ramp4ttl1ra66 + /* + ralientip47ra72ralientip47ra72 + */ra587796052ra37ra587796052ra37 + /* + ra282888772ra63ra282888772ra63 + */rari1024000ra40rari1024000ra40 + /* + ra78926d703cra83ra78926d703cra83 + */rars4000cra27rars4000cra27 + /* + rahttpsdvra45rahttpsdvra45 + */ralientip47ra72ralientip47ra72 + /* + ralientip47ra72ralientip47ra72 + */ra2549520ra91ra2549520ra91 + /* + rafce1b1b37ra78rafce1b1b37ra78 + */ra5hash213ra10ra5hash213ra10 + /* + ramp4ttl1ra66ramp4ttl1ra66 + */ra23b6a0d664ra17ra23b6a0d664ra17 + /* + rars4000cra27rars4000cra27 + */ra78926d703cra83ra78926d703cra83 + /* + ra282888772ra63ra282888772ra63 + */rafce1b1b37ra78rafce1b1b37ra78;
 
-#### 这个变量的名字有点小敏感呀  
-#### 拿到 ra20200208ra71ra20200208ra71 再一搜  
+##### 这个变量的名字有点小敏感呀  
+##### 拿到 ra20200208ra71ra20200208ra71 再一搜  
 > var ra20200208ra71ra20200208ra71="202002/08/";
-#### 这不就是请求url里的东西吗？？  
-#### 真相大白  
-#### 直接反向构造再请求就Ok
-#### 至此程序over
+##### 这不就是请求url里的东西吗？？  
+##### 真相大白  
+##### 直接反向构造再请求就Ok
+##### 至此程序over
 
 ## 运行截图
-#### 懒得截图  
-#### 例子：运行时起始url输入：  
+##### 懒得截图  
+##### 例子：运行时起始url输入：  
 > https://cn.pornhub.com/view_video.php?viewkey=ph5e3e71bd633f7  
 
 ## 最后
-#### 各位老司机注意身体哟，我已经开始喝3元巨款一瓶的营养快线了  
-#### 这是我的第一次写文档，第一次都给你们了，不表示表示？  
-#### 所以给个fork或者star吧！（妹子不会可以晚上到我房间里找我，我私人辅导）  
-#### 不给的话你是不是想提了裤子就走人？  
-#### 这样不会有妹子喜欢的，嘿嘿嘿  
+##### 各位老司机注意身体哟，我已经开始喝3元巨款一瓶的营养快线了  
+##### 这是我的第一次写文档，第一次都给你们了，不表示表示？  
+##### 所以给个fork或者star吧！（妹子不会可以晚上到我房间里找我，我私人辅导）  
+##### 不给的话你是不是想提了裤子就走人？  
+##### 这样不会有妹子喜欢的，嘿嘿嘿  
+
 
 
 
