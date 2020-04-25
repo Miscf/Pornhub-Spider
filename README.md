@@ -36,7 +36,7 @@
 
 ## pornhub视频链接的加密
 > 一个视频m3u8文件链接 :
-> https://d1vh.phncdn.com/hls/videos/202002/08/282888772/,720P_4000K,480P_2000K,240P_400K,_282888772.mp4.urlset/master.m3u8ttl=1587795884&l=0&clientip=47.254.95.205&hash=f02ea34e20bdf70dcf365c45b01e149c
+> https://d1vh.phncdn.com/hls/videos/202002/08/282888772/,720P_4000K,480P_2000K,240P_400K,_282888772.mp4.urlset/master.m3u8ttl=1587795884&l=0&clientip=47.254.95.205&hash=f02ea34e20bdf70dcf365c45b01e149c  
 > 有时候也会像另外的，但这都不重要
 #### 开始的时候我以为hash=后面跟的是加密值  
 #### 看起来挺唬人的，结果屁都不是  
