@@ -43,5 +43,24 @@
 #### 在主页面的js我发现了一串奇奇怪怪的东东
 > var quality_720p=/* + ra587796052ra37ra587796052ra37 + */rahttpsdvra45rahttpsdvra45 + /* + ramp4ttl1ra66ramp4ttl1ra66 + */ra1phncdncra64ra1phncdncra64 + /* + ra2549520ra91ra2549520ra91 + */raomvideosra42raomvideosra42 + /* + ra1phncdncra64ra1phncdncra64 + */ra20200208ra71ra20200208ra71 + /* + ra720p1500kra48ra720p1500kra48 + */ra282888772ra63ra282888772ra63 + /* + rars4000cra27rars4000cra27 + */ra720p1500kra48ra720p1500kra48 + /* + ramp4ttl1ra66ramp4ttl1ra66 + */ra282888772ra61ra282888772ra61 + /* + ra5hash213ra10ra5hash213ra10 + */ramp4ttl1ra66ramp4ttl1ra66 + /* + ralientip47ra72ralientip47ra72 + */ra587796052ra37ra587796052ra37 + /* + ra282888772ra63ra282888772ra63 + */rari1024000ra40rari1024000ra40 + /* + ra78926d703cra83ra78926d703cra83 + */rars4000cra27rars4000cra27 + /* + rahttpsdvra45rahttpsdvra45 + */ralientip47ra72ralientip47ra72 + /* + ralientip47ra72ralientip47ra72 + */ra2549520ra91ra2549520ra91 + /* + rafce1b1b37ra78rafce1b1b37ra78 + */ra5hash213ra10ra5hash213ra10 + /* + ramp4ttl1ra66ramp4ttl1ra66 + */ra23b6a0d664ra17ra23b6a0d664ra17 + /* + rars4000cra27rars4000cra27 + */ra78926d703cra83ra78926d703cra83 + /* + ra282888772ra63ra282888772ra63 + */rafce1b1b37ra78rafce1b1b37ra78;
 
+#### 这个变量的名字有点小敏感呀  
+#### 拿到 ra20200208ra71ra20200208ra71 再一搜  
+> var ra20200208ra71ra20200208ra71="202002/08/";
+#### 这不就是请求url里的东西吗？？  
+#### 真相大白  
+#### 直接反向构造再请求就Ok
+#### 至此程序over
+
+### 运行截图
+> 懒得截图  
+> 例子：运行时起始url输入：  
+> https://cn.pornhub.com/view_video.php?viewkey=ph5e3e71bd633f7  
+
+> 各位老司机注意身体哟，我已经开始喝营养快线了
+> 我的第一次写文档，第一次都给你们了  
+> 所以给个fork或者star吧！  
+> 不给你是不是想提了裤子就走人，当白嫖？  &nbsp;  这样不会有妹子喜欢的，嘿嘿嘿  
+> 谢谢您嘞
+
 
 
