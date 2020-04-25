@@ -35,8 +35,13 @@
 #### 当然你也可以在程序里改
 
 ## pornhub视频链接的加密
-> 一个视频链接 :
+> 一个视频m3u8文件链接 :
 > https://d1vh.phncdn.com/hls/videos/202002/08/282888772/,720P_4000K,480P_2000K,240P_400K,_282888772.mp4.urlset/master.m3u8ttl=1587795884&l=0&clientip=47.254.95.205&hash=f02ea34e20bdf70dcf365c45b01e149c
+> 有时候也会像另外的，但这都不重要
+#### 开始的时候我以为hash=后面跟的是加密值  
+#### 看起来挺唬人的，结果屁都不是  
+#### 在主页面的js我发现了一串奇奇怪怪的东东
+> var quality_720p=/* + ra587796052ra37ra587796052ra37 + */rahttpsdvra45rahttpsdvra45 + /* + ramp4ttl1ra66ramp4ttl1ra66 + */ra1phncdncra64ra1phncdncra64 + /* + ra2549520ra91ra2549520ra91 + */raomvideosra42raomvideosra42 + /* + ra1phncdncra64ra1phncdncra64 + */ra20200208ra71ra20200208ra71 + /* + ra720p1500kra48ra720p1500kra48 + */ra282888772ra63ra282888772ra63 + /* + rars4000cra27rars4000cra27 + */ra720p1500kra48ra720p1500kra48 + /* + ramp4ttl1ra66ramp4ttl1ra66 + */ra282888772ra61ra282888772ra61 + /* + ra5hash213ra10ra5hash213ra10 + */ramp4ttl1ra66ramp4ttl1ra66 + /* + ralientip47ra72ralientip47ra72 + */ra587796052ra37ra587796052ra37 + /* + ra282888772ra63ra282888772ra63 + */rari1024000ra40rari1024000ra40 + /* + ra78926d703cra83ra78926d703cra83 + */rars4000cra27rars4000cra27 + /* + rahttpsdvra45rahttpsdvra45 + */ralientip47ra72ralientip47ra72 + /* + ralientip47ra72ralientip47ra72 + */ra2549520ra91ra2549520ra91 + /* + rafce1b1b37ra78rafce1b1b37ra78 + */ra5hash213ra10ra5hash213ra10 + /* + ramp4ttl1ra66ramp4ttl1ra66 + */ra23b6a0d664ra17ra23b6a0d664ra17 + /* + rars4000cra27rars4000cra27 + */ra78926d703cra83ra78926d703cra83 + /* + ra282888772ra63ra282888772ra63 + */rafce1b1b37ra78rafce1b1b37ra78;
 
 
 
